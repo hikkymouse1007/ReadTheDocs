@@ -57,4 +57,10 @@ Your index.rst has been built into index.html in your documentation output direc
 docker cp myreadthedocs01:/home/docs/docs .
 ```
 
+ローカルからコンテナにコピーするとき
+
+```
+docker cp docs myreadthedocs01:/home/docs/docs
+```
+
 ブラウザからindex.htmlを開く
